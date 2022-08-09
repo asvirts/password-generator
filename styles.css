@@ -3,6 +3,9 @@ body {
     margin-left: 5%;
 }
 
+
+/* Buttons */
+
 button {
     background-color: #10B981;
     border: none;
@@ -13,13 +16,17 @@ button {
 }
 
 #generated-password {
-    background-color: #273549;
+    background-color: #10B981;
     border: none;
     border-radius: 5px;
     color: white;
     height: 40px;
-    width: 200px
+    width: 200px;
+    text-align: center;
 }
+
+
+/* Headings */
 
 h1 {
     color: white;
