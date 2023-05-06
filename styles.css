@@ -11,8 +11,9 @@ button {
     border: none;
     border-radius: 5px;
     color: white;
-    height: 40px;
-    width: 200px
+    height: auto;
+    width: auto;
+    padding: 10px;
 }
 
 #generated-password {
@@ -20,8 +21,9 @@ button {
     border: none;
     border-radius: 5px;
     color: white;
-    height: 40px;
-    width: 200px;
+    height: auto;
+    width: fit-content;
+    padding: 10px;
     text-align: center;
 }
 
