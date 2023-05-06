@@ -104,4 +104,8 @@ function generatePassword(length) {
   return password;
 }
 
+function generateNewPassword(num) {
+  generatedPasswordEl.textContent = generatePassword(num);
+}
+
 generatedPasswordEl.textContent = generatePassword(30);
